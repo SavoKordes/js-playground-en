@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Playground – Savo Kordes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="playground">
+    <h1>JavaScript Playground</h1>
+
+    <section class="demo">
+      <h2>Random Quote</h2>
+      <button id="quoteBtn">Show a Quote</button>
+      <p id="quoteOutput">Click the button to see a quote.</p>
+    </section>
+
+    <section class="demo">
+      <h2>Dark Mode Toggle</h2>
+      <button id="darkModeBtn">Toggle Dark Mode</button>
+    </section>
+
+    <section class="demo">
+      <h2>Click Counter</h2>
+      <button id="countBtn">Clicked <span id="count">0</span> times</button>
+    </section>
+
+    <section class="demo">
+      <h2>Calculator</h2>
+      <input type="number" id="num1" placeholder="Number 1">
+      <select id="operation">
+        <option value="+">+</option>
+        <option value="-">−</option>
+        <option value="*">×</option>
+        <option value="/">÷</option>
+      </select>
+      <input type="number" id="num2" placeholder="Number 2">
+      <button id="calcBtn">Calculate</button>
+      <p id="calcResult">Result: </p>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
